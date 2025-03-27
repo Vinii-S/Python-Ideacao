@@ -11,4 +11,11 @@ for nota in notas:
 print("Maior nota", maior)
 print("Menor nota", menor)
 
+a = int (input("Digite o valor de A: "))
+b = int (input("Digite o valor de B: "))
+
+if(a > b):
+    print(a)
+else:
+    print(b)
 #if(notas.index)
