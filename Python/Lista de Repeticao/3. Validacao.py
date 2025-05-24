@@ -48,6 +48,7 @@ while cont == 0:
             if(sexo.lower()!='m' and sexo.lower()!= 'f'):
                 cont5=0
             else:
+                
                 cont5=1
     estado_civil = input("Informe seu estado civil, 's' 'v' 'c' 'd': ")
     if estado_civil.lower() not in ['s', 'v', 'c', 'd']:
@@ -61,7 +62,7 @@ while cont == 0:
                 cont6=1
     cont=1
 print(f"Seu nome e {nome}.") # type: ignore
-print(f"Voce tem {idade} anos.")
-print(f"Seu salario e R$ {salario}")
-print(f"Voce e do sexo {f}")
-print(f"Seu estado civil e {estado_civil}")
+print(f"Voce tem {idade} anos.") # type: ignore
+print(f"Seu salario e R$ {salario}") # type: ignore
+print(f"Voce e do sexo {sexo}") # type: ignore
+print(f"Seu estado civil e {estado_civil}") # type: ignore
