@@ -14,10 +14,10 @@ for i in range(5):
         
 maiorAcidentes = numerosAcidentes.index(max(numerosAcidentes))
 menorAcidentes = numerosAcidentes.index(min(numerosAcidentes))
-mediaVeiculos = sum(numerosVeiculos) / 5
+mediaVeiculos = sum(numerosVeiculos) / len(numerosVeiculos)
 mediaPoucos = sum(poucosAcidentes) / len(poucosAcidentes)
 
 print(f"A cidade de número {codigosCidades[maiorAcidentes]} teve mais acidentes, sendo {numerosAcidentes[maiorAcidentes]}")
 print(f"A cidade de número {codigosCidades[menorAcidentes]} teve menos acidentes, sendo {numerosAcidentes[menorAcidentes]}")
-print(f"A media de veículos das 5 cidades é {mediaVeiculos:.2f}")
-print(f"")
+print(f"A media de veículos das cinco cidades é {mediaVeiculos:.2f}")
+print(f"A media de acidentes em cidades com menos de 2000 veículos é de: {mediaPoucos}")
