@@ -1,6 +1,6 @@
 gabarito = []
 for i in range (10):
-    respostaCorreta = input(f"Digite a resposta certa da Questão {i+1}: ")
+    respostaCorreta = input(f"Digite o gabarito da Questão {i+1}: ")
     gabarito.append(respostaCorreta)
 notas = []
 while True:
